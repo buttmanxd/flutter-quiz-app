@@ -99,11 +99,15 @@ class _MyAppState extends State<MyApp> {
       ),
       home: Scaffold(
         appBar: AppBar(
-          title: const Text("THE QUIZ APP"),
+          title: const Text(
+            "THE QUIZ APP",
+            style: TextStyle(fontFamily: 'Kaushan Script'),
+          ),
         ),
         floatingActionButton: FloatingActionButton(
           child: const Text(
             "Reset Quiz",
+            style: TextStyle(fontFamily: 'Press Start 2P'),
             textAlign: TextAlign.center,
           ),
           onPressed: () {

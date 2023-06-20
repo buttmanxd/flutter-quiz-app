@@ -8,10 +8,18 @@ class Result extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Center(
-      child: Image.asset(
-        'assets/images/fullmark.png',
-        width: 200,
-      ),
-    );
+        child: Column(
+      children: [
+        Image.asset('assets/images/fullmark.png'),
+        Text(
+          "Your Score : $score / 10",
+          style: const TextStyle(
+            fontFamily: 'Indie Flower',
+            fontWeight: FontWeight.bold,
+            fontSize: 20,
+          ),
+        ),
+      ],
+    ));
   }
 }

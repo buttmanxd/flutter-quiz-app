@@ -14,6 +14,7 @@ class Question extends StatelessWidget {
       child: Text(
         questionText!,
         style: const TextStyle(
+          fontFamily: 'Teko',
           fontWeight: FontWeight.bold,
           fontSize: 20,
           color: Color.fromARGB(255, 255, 0, 0),
